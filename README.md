@@ -23,7 +23,7 @@ Feel free to create a issue if a programme for that language is not added .
 8. Add your content using the command - `git add -A`
 9. Commit the changes using the command - `git commit -m "your-message"`
 10. Push the changes using the command - `git push origin [branch-name]`
-11. Creat a Pull request.
+11. Create a Pull request.
 12. Star this Repository.
 
 For reference check out : www.youtube.com/watch?v=c6b6B9oN4Vg
