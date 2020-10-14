@@ -1,0 +1,24 @@
+{
+  "name": "HELLO_WORLD",
+  "version": "1.0.0",
+  "description": "![Hacktoberfest2020](https://hacktoberfest.digitalocean.com/assets/HF-full-logo-b05d5eb32b3f3ecc9b2240526104cf4da3187b8b61963dd9042fdc2536e4a76c.svg)",
+  "main": "config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kmrakash/HELLO_WORLD.git"
+  },
+  "keywords": [],
+  "author": "kmrakash",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kmrakash/HELLO_WORLD/issues"
+  },
+  "homepage": "https://github.com/kmrakash/HELLO_WORLD#readme",
+  "dependencies": {
+    "@actions/core": "^1.2.6",
+    "@actions/github": "^4.0.0"
+  }
+}

@@ -31,27 +31,41 @@ For reference check out : www.youtube.com/watch?v=c6b6B9oN4Vg
 # What to do in this project ?
 
 - First visit [carbon.now.sh](https://carbon.now.sh/)
-- chose a nice background
+- choose a nice background
 - write the programe
 - save the image as png
 - name the image as [programming language].png
 - store the image in images folder
-- use below template code , Add this to necessary place inside <strong>index.html</strong>
+- use below template code , and add this at the very bottom of **config.js**, before `]`
 - commit your changes
 - now create a PR mention the image in PR also
 
-<strong>Template Code</strong>
+**Template Code + Example**
 
 ```
- <div class="col-lg-4 mb-4">
-                <div class="card">
-                    <img class="card-img-top" src="[Image address]" alt="">
-                    <div class="card-body">
-                        <h5 class="card-title text-center">[Name of Programming Language]</h5>
-                        <div class="col text-center">
-                        <a href="[Add the link to your Github Profile]" class="btn btn-outline-danger btn-sm">Contributed by - [Add your Github Username/profile name]</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+let data = [
+    // ...
+    
+    // Code template
+    // Note: Put this at the very bottom of this file, but before ]
+    {
+        'lang': "[Language Name]",
+        'lang-name': "[Language Name]",
+        'lang-image': "[Image address]",
+        'lang-image-attr': "[Language Name]",
+        'contributor': "Contributed by - [Your name]",
+        'contributor-link': "[Your GitHub profile link]", 
+    }, // <- Remember to add comma (,)
+
+
+    // Example code
+    {
+        'lang': "JavaScript",
+        'lang-name': "JavaScript",
+        'lang-image': "./images/javascript.png",
+        'lang-image-attr': "JavaScript",
+        'contributor': "Contributed by - kmrakash",
+        'contributor-link': "https://www.github.com/kmrakash",
+    },
+]
 ```

@@ -1,0 +1,35 @@
+name: Merge Scheduled Pull Requests
+on:
+  pull_request:
+    types:
+      - opened
+      - edited
+  schedule:
+    # https://crontab.guru/every-day-8am
+    - cron: 0 8 * * *
+
+jobs:
+  schedule:
+    runs-on: ubuntu-latest
+    if: github.event_name == 'pull_request'
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
+        with:
+          node-version: 12
+      - run: "npm ci"
+      - run: "node ./.github/actions/schedule-merge.js"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+  merge:
+    runs-on: ubuntu-latest
+    if: github.event_name == 'schedule'
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
+        with:
+          node-version: 12
+      - run: "npm ci"
+      - run: "node ./.github/actions/merge.js"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
