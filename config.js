@@ -48,6 +48,14 @@ let data = [
         'contributor-link': "https://www.github.com/ashutoshkrris",
     },
     {
+        'lang': "Groovy",
+        'lang-name': "Groovy",
+        'lang-image': "./images/groovy.png",
+        'lang-image-attr': "Groovy",
+        'contributor': "Contributed by - Vishakha Kumari",
+        'contributor-link': "https://github.com/vishakha71", 
+    },
+    {
         'lang': "BASIC",
         'lang-name': "BASIC",
         'lang-image': "./images/BASIC.png",
