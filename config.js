@@ -40,6 +40,14 @@ let data = [
         'contributor-link': "https://www.github.com/kushaangowda",
     },
     {
+        'lang': "Clojure",
+        'lang-name': "Clojure",
+        'lang-image': "./images/clojure.png",
+        'lang-image-attr': "Clojure",
+        'contributor': "Contributed by - Vishakha Kumari",
+        'contributor-link': "https://github.com/vishakha71", 
+    },
+    {
         'lang': "Dart",
         'lang-name': "Dart",
         'lang-image': "./images/dart.png",
