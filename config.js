@@ -214,5 +214,5 @@ let data = [
         'lang-image-attr': "Batch File",
         'contributor': "Contributed by - Monica Munoz",
         'contributor-link': "https://www.github.com/sarcastic22101",
-    }
+    },
 ]
