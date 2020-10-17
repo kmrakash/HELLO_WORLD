@@ -8,6 +8,38 @@ let data = [
         'contributor-link': "https://www.github.com/kmrakash",  // Github Contributor (link)
     },
     {
+        'lang': "solidity",
+        'lang-name': "Solidity",
+        'lang-image': "./images/solidity.png",
+        'lang-image-attr': "solidity",
+        'contributor': "Contributed by - Azim Pathan",
+        'contributor-link': "https://www.github.com/AzimPathan"
+    },
+    {
+        'lang': "swift",
+        'lang-name': "Swift",
+        'lang-image': "./images/swift.png",
+        'lang-image-attr': "swift",
+        'contributor': "Contributed by - Azim Pathan",
+        'contributor-link': "https://www.github.com/AzimPathan"
+    },
+    {
+        'lang': "xml",
+        'lang-name': "XML",
+        'lang-image': "./images/xml.png",
+        'lang-image-attr': "xml",
+        'contributor': "Contributed by - Azim Pathan",
+        'contributor-link': "https://www.github.com/AzimPathan"
+    },
+    {
+        'lang': "scala",
+        'lang-name': "Scala",
+        'lang-image': "./images/scala.png",
+        'lang-image-attr': "scala",
+        'contributor': "Contributed by - Azim Pathan",
+        'contributor-link': "https://www.github.com/AzimPathan"
+    },
+    {
         'lang': "Swift",
         'lang-name': "Swift",
         'lang-image': "./images/Swift.png",
@@ -176,12 +208,11 @@ let data = [
         'contributor-link': "https://www.github.com/Aaditya-Raj7",
     },
     {
-        'lang': “Batch File“,
-        'lang-name': “Batch File“,
+        'lang': "Batch File",
+        'lang-name': "Batch File",
         'lang-image': "./images/Batch.png",
-        'lang-image-attr': “Batch File“,
-        'contributor': "Contributed by - Monica Munoz”,
-        'contributor-link': "https://www.github.com/sarcastic22101”,
-    },
-
+        'lang-image-attr': "Batch File",
+        'contributor': "Contributed by - Monica Munoz",
+        'contributor-link': "https://www.github.com/sarcastic22101",
+    }
 ]
