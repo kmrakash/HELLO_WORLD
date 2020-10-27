@@ -18,7 +18,7 @@ let options = {
     
                         <div class="col text-center">
                             <a href=""
-                               class="btn btn-outline-danger btn-sm contributor contributor-link"></a>
+                               class="btn btn-outline-success btn-sm contributor contributor-link"></a>
                         </div>
                     </div>
                 </div>

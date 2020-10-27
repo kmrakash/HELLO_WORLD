@@ -1,5 +1,12 @@
+body {
+  background: -webkit-Linear-gradient(to Left,#DB21FF,#9832EF);
+background: Linear-gradient(to Left,#DB21FF,#9832EF); 
+color: white;
+}
+
 .card {
   height: 100%;
+  background: black;
 }
 img {
   height: 200px;
