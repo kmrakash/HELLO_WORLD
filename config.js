@@ -280,4 +280,12 @@ let data = [
         'contributor': "Contributed by - Radha Kumari",
         'contributor-link': "https://www.github.com/12345radha",
     },
+    {
+        'lang': "Svelte",
+        'lang-name': "Svelte",
+        'lang-image': "./images/svelte.png",
+        'lang-image-attr': "Svelte",
+        'contributor': "Contributed by - Mike",
+        'contributor-link': "https://www.github.com/3daddict",
+    }
 ]
